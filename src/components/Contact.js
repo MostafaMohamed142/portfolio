@@ -13,12 +13,12 @@ const Contact = () => {
     
   return (
       
-                <div className='container-fluid container-sm formgroup d-flex justify-content-end' id='contact' style={{height:'500px'}}>
+                <div className='container-fluid formgroup d-flex justify-content-end' id='contact' style={{height:'500px'}}>
                             
                                 
                                 <div className='col-sm-6' style={{boxShadow:'box-shadow: -17px 12px 17px 0px #020202'}}>
                                 <h2 className='p-3 text-dark' style={{textDecoration:'underline'}}>Get In Touch</h2>
-                                    <form method='post' style={{width:'50%'}}>
+                                    <form method='post'>
                                         
                                             <div className='d-flex d-sm-block d-xs-block p-3 gap-1'>
                                             
