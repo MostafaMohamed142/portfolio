@@ -40,7 +40,7 @@ const Info = () => {
                     
                 </div>
                         <div className='w-50 m-auto my-3 p-3 m'>
-                                <img src={mostafa} alt='personal' className='img-thumbnail rounded w-75 mt-5' loading='lazy'  style={{filter:'drop-shadow(#9cc1cc70 14px 15px 10px))',boxShadow:'4px 3px 4px 9px #c4b08b'}} data-aos='fade-left'/>
+                                <img src={mostafa} alt='personal' className='img-fluid mt-5' loading='lazy'  style={{filter:'drop-shadow(#9cc1cc70 14px 15px 10px))',boxShadow:'4px 3px 4px 9px #c4b08b'}} data-aos='fade-left'/>
                         </div>
         </div>
         {/* end intro and image */}

@@ -17,21 +17,21 @@ const Contact = () => {
                             
                                 
                                 <div className='col-sm-4' style={{boxShadow:'box-shadow: -17px 12px 17px 0px #020202'}}>
-                                <h2 className='p-3 text-dark' style={{textDecoration:'underline'}}>Get In Touch</h2>
+                                <h2 className='p-3 text-dark text-center' style={{textDecoration:'underline'}}>Get In Touch</h2>
                                     <form method='post'>
                                         
-                                            <div className='d-flex d-sm-block d-xs-block p-3 gap-1'>
+                                            <div className='d-flex p-3 gap-1'>
                                             
-                                                <input type='text' name='fName' placeholder='First Name' className='p-1' value={message.fName} onChange={(e)=> setMessage({...message,fName:e.target.value})}/>
+                                                <input type='text' name='fName' placeholder='First Name' className='p-1 w-50' value={message.fName} onChange={(e)=> setMessage({...message,fName:e.target.value})}/>
                                             
-                                                <input type='text' name='lName' placeholder='Last Name' className='p-1 ' value={message.lName} onChange={(e)=> setMessage({...message,lName:e.target.value})}/>
+                                                <input type='text' name='lName' placeholder='Last Name' className='p-1 w-50' value={message.lName} onChange={(e)=> setMessage({...message,lName:e.target.value})}/>
                                                 </div>
                                             
-                                                <div className='d-flex d-sm-block d-xs-block p-3 gap-1'>
+                                                <div className='d-flex p-3 gap-1'>
                                                 
-                                                <input type='email' name='email' placeholder='E-Mail' className=' p-1' value={message.email} onChange={(e)=> setMessage({...message,email:e.target.value})}/>
+                                                <input type='email' name='email' placeholder='E-Mail' className='w-50 p-1' value={message.email} onChange={(e)=> setMessage({...message,email:e.target.value})}/>
                                             
-                                                <input type='number' name='Phone' placeholder='Phone Num' className='p-1' value={message.phoneNum} onChange={(e)=> setMessage({...message,phoneNum:e.target.value})}/>
+                                                <input type='number' name='Phone' placeholder='Phone Num' className='p-1 w-50' value={message.phoneNum} onChange={(e)=> setMessage({...message,phoneNum:e.target.value})}/>
                                                 </div>
                                                 
                                                 <div className='d-block p-3'>
