@@ -13,10 +13,10 @@ const Contact = () => {
     
   return (
       
-                <div className='container-fluid formgroup' id='contact' style={{height:'500px'}}>
-                            <div className='row justify-content-end'>
+                <div className='container-fluid formgroup d-flex justify-content-end' id='contact' style={{height:'500px'}}>
+                            
                                 
-                                <div className='col-md-6' style={{boxShadow:'box-shadow: -17px 12px 17px 0px #020202'}}>
+                                <div className='col-md-6 col-sm-4' style={{boxShadow:'box-shadow: -17px 12px 17px 0px #020202'}}>
                                 <h2 className='p-3 text-dark' style={{textDecoration:'underline'}}>Get In Touch</h2>
                                     <form method='post'>
                                         
@@ -47,7 +47,7 @@ const Contact = () => {
                                     </form>  
                                 </div>
                                       
-                            </div>
+                            
                            
                     
                 </div>
