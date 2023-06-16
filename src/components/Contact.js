@@ -20,14 +20,14 @@ const Contact = () => {
                                 <h2 className='p-3 text-dark' style={{textDecoration:'underline'}}>Get In Touch</h2>
                                     <form method='post' style={{width:'50%'}}>
                                         
-                                            <div className='d-flex p-3 gap-1'>
+                                            <div className='d-flex flex-wrap p-3 gap-1'>
                                             
                                                 <input type='text' name='fName' placeholder='First Name' className='p-1' value={message.fName} onChange={(e)=> setMessage({...message,fName:e.target.value})}/>
                                             
                                                 <input type='text' name='lName' placeholder='Last Name' className='p-1 ' value={message.lName} onChange={(e)=> setMessage({...message,lName:e.target.value})}/>
                                                 </div>
                                             
-                                                <div className='d-flex p-3 gap-1'>
+                                                <div className='d-flex flex-wrap p-3 gap-1'>
                                                 
                                                 <input type='email' name='email' placeholder='E-Mail' className=' p-1' value={message.email} onChange={(e)=> setMessage({...message,email:e.target.value})}/>
                                             
