@@ -37,7 +37,7 @@ const Skills = () => {
             <h2 className='text-center fs-1 text-dark font-weight-bold my-4 p-4' data-aos='fade-right'>Skills</h2>
             <p className='text-center text-warning w-responsive mx-auto mb-5' data-aos='fade-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget lorem sed arcu vehicula ultrices. Fusce</p>
             
-              <div className='d-flex justify-content-center gap-5 text-center' data-aos='flip-right'>
+              <div className='d-flex justify-content-center flex-wrap gap-5 text-center' data-aos='flip-right'>
               
          {skills.map((skill, index) => (
           <div key={index} className={`skill ${skill.show === true  ? 'active' : ''}`}>

@@ -63,15 +63,6 @@ import {css,figma,html,javascript,react,redux,tailwind,github,mockup,netfilx,shi
             }
         ]
     
-    const contact=[
-            {
-                    name: 'Email',
-                    value: 'tzirw@example.com',
-                    icon: 'fa-envelope'
-
-            }
-        ]
-   
     const techonologies=[
         
             {
@@ -139,7 +130,7 @@ import {css,figma,html,javascript,react,redux,tailwind,github,mockup,netfilx,shi
             },
             {
                 name: 'Freelancer',
-                company: 'UpWork/PeoplePerHour/freelancer',
+                company: 'PeoplePerHour',
                 date: 'May 2022 - June 2021',
                 description: 'I am a full stack developer with 5+ years of experience in the IT industry. I have extensive experience in developing backend REST APIs, frontend SPAs, mobile apps, databases, and cloud infrastructure',
                 points:[
