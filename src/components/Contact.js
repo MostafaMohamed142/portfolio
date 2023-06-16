@@ -13,7 +13,7 @@ const Contact = () => {
     
   return (
       
-                <div className='container-fluid formgroup d-flex justify-content-end' id='contact' style={{height:'500px'}}>
+                <div className='container-fluid formgroup d-flex justify-content-center flex-wrap' id='contact' style={{height:'500px'}}>
                             
                                 
                                 <div className='col-sm-4' style={{boxShadow:'box-shadow: -17px 12px 17px 0px #020202'}}>
