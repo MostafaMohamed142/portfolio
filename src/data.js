@@ -143,4 +143,4 @@ import {css,figma,html,javascript,react,redux,tailwind,github,mockup,netfilx,shi
             }
         ]
  
-export {techonologies,education,skills,contact,projects,experience} 
+export {techonologies,education,skills,projects,experience} 
