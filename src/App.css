@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+.back{
+  background-image: url(../src/images/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.t-head{
+  color: hsl(0, 0%, 28%);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 30px;
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 1s infinite alternate;
+}
+@keyframes shine {
+  0% {
+    background-position: 0px;
+  }
+  50% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.proj:hover{
+  background-color: black;
+  cursor: pointer;
+  transition: 0.6s all ease-in-out;
+}
+.proj:hover > p{
+  color: white !important;
+}
+input,textarea{
+  border-radius: 10px;
+  border-color: burlywood;
+}
+.formgroup{
+  background-image: url('images/damian-zaleski-RYyr-k3Ysqg-unsplash.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
+.skill{
+  display: none;
+  
+}
+.active{
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+i:hover{
+  color:white;
+  transition: 0.3s all ease-in;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section{
+  margin-top: 8%;
+}
+.blog{
+  position: absolute;
+  width: 64%;
+  left: 20%;
+  padding: 50px;
+  top: 53%;
+  border-radius: 12px;
+  
+}
+.progress-bar{
+  background-color: #171717 !important;
+  border-radius: 70px !important;
+  width: fit-content !important;
 }

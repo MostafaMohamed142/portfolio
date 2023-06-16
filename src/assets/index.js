@@ -1,0 +1,15 @@
+import css from './css.png'
+import figma from './figma.png'
+import github from './github.png'
+import html from './html.png'
+import javascript from './javascript.png'
+import react from './reactjs.png'
+import redux from './redux.png'
+import tailwind from './tailwind.png'
+import mockup from './mock.png'
+import work from './work.png'
+import netfilx from './netflix.jpg'
+import cardio from './cardio.png'
+import shirt from './customize.png'
+
+export {css,figma,github,html,javascript,react,redux,tailwind,mockup,work,netfilx,cardio,shirt};
