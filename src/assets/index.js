@@ -11,5 +11,7 @@ import work from './work.png'
 import netfilx from './netflix.jpg'
 import cardio from './cardio.png'
 import shirt from './customize.png'
+import tenzies from './tenzies.png'
+import toDo from './to-do.png'
 
-export {css,figma,github,html,javascript,react,redux,tailwind,mockup,work,netfilx,cardio,shirt};
+export {css,figma,github,html,javascript,react,redux,tailwind,mockup,work,netfilx,cardio,shirt,tenzies,toDo};

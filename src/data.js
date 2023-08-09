@@ -1,4 +1,4 @@
-import {css,figma,html,javascript,react,redux,tailwind,github,mockup,netfilx,shirt,cardio} from './assets'
+import {css,figma,html,javascript,react,redux,tailwind,github,mockup,netfilx,shirt,cardio,tenzies,toDo} from './assets'
 
 
 
@@ -60,7 +60,21 @@ import {css,figma,html,javascript,react,redux,tailwind,github,mockup,netfilx,shi
                 link: 'https://mostafamohamed142.github.io/cardio-alex.github.io/',
                 image: cardio,
                 github: "https://github.com/MostafaMohamed142/cardio-alex.github.io"
+            },{
+                name:'Tenzies Game'
+                ,description:"ReactJs",
+                link : "https://tenzies-github-io.vercel.app/",
+                image :tenzies,
+                github :"https://github.com/MostafaMohamed142/Tenzies.github.io"
+            },
+            {
+                name:'To Do App',
+                description:"ReactJs,react showdown",
+                link : "https://note-app-2y3q.vercel.app/",
+                image:toDo,
+                github :"https://github.com/MostafaMohamed142/Note-App"
             }
+    
         ]
     
     const techonologies=[
