@@ -13,5 +13,6 @@ import cardio from './cardio.png'
 import shirt from './customize.png'
 import tenzies from './tenzies.png'
 import toDo from './to-do.png'
+import eCommerce from './Firefox_Screenshot_2023-09-26T02-45-38.909Z.png'
 
-export {css,figma,github,html,javascript,react,redux,tailwind,mockup,work,netfilx,cardio,shirt,tenzies,toDo};
+export {css,figma,github,html,javascript,react,redux,tailwind,mockup,work,netfilx,cardio,shirt,tenzies,toDo,eCommerce};

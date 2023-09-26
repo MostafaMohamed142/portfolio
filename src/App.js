@@ -32,9 +32,7 @@ useEffect(()=>{
       <main>
         <Info/>
       </main>
-      <div>
-        <Skills/>
-      </div>
+      
       <section>
         <Section/>
         

@@ -1,4 +1,4 @@
-import {css,figma,html,javascript,react,redux,tailwind,github,mockup,netfilx,shirt,cardio,tenzies,toDo} from './assets'
+import {css,figma,html,javascript,react,redux,tailwind,github,mockup,netfilx,shirt,cardio,tenzies,toDo,eCommerce} from './assets'
 
 
 
@@ -73,6 +73,12 @@ import {css,figma,html,javascript,react,redux,tailwind,github,mockup,netfilx,shi
                 link : "https://note-app-2y3q.vercel.app/",
                 image:toDo,
                 github :"https://github.com/MostafaMohamed142/Note-App"
+            },{
+                name:'E-commerce App',
+                description:"React/typescript firebase tailwind",
+                link:"https://global-goods.vercel.app/",
+                image:eCommerce,
+                github:"https://github.com/MostafaMohamed142/Global-goods"
             }
     
         ]
